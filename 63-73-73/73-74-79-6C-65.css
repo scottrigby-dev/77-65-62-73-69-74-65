@@ -1,15 +1,21 @@
 body {
-  color: #ffffff;
+  color: #fffff0;
   background-color: #111;
   font-family: Arial, sans-serif;
 }
 
 h1 {
+  color: #00ff00;
   text-align: center;
 }
 
 nav {
   text-align: center;
+}
+
+hr {
+  opacity: .5;
+  border: 1px dashed #39ff14;
 }
 
 nav ul {
@@ -48,7 +54,7 @@ p {
 img {
   padding: 5px;
   border: 1px dashed #39ff14;
-  border-radius: 5px;
+  border-radius: 10px;
   display: block;
   margin: 0 auto;
   margin-top: 3rem;
