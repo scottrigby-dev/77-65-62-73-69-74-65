@@ -1,0 +1,55 @@
+body {
+  color: #ffffff;
+  background-color: #111;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+}
+
+nav ul {
+  width: 100%;
+  border-radius: 5px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  background-color: #222; /* You can change the background color */
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  border-radius: 5px;
+  background-color: #777; /* You can change the hover background color */
+}
+
+p {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+img {
+  padding: 5px;
+  border: 1px dashed #39ff14;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 3rem;
+}
